@@ -1,6 +1,6 @@
-@Unpublished{DOE2024,
-    Title  = "EXAMPLE PROJECT",
-    Author = "JANE DOE",
+@Unpublished{Molinari2024,
+    Title  = "In centro con i miei fratelli",
+    Author = "Sergei Molinari",
     Year   = "2024",
-    Url    = "https://github.com/opensourceeconomics/econ-project-templates",
+    Url    = "https://github.com/sergeimolinari/bassotto",
 }

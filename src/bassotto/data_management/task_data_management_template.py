@@ -10,8 +10,8 @@ from bassotto.data_management.stats4schools_smoking_template import (
 
 
 def task_clean_stats4schools_smoking_data(
-    script=SRC / "data_management" / "stats4schools_smoking_template.py",
-    data=SRC / "data" / "stats4schools_smoking_template.csv",
+    script=SRC / "data_management" / "soep.py",  # change
+    data=SRC / "data" / "pequiv.dta",  # change
     produces=BLD / "data" / "stats4schools_smoking.pickle",
 ):
     """Clean the stats4schools smoking data set."""
@@ -29,3 +29,5 @@ def task_clean_stats4schools_smoking_data_r(
     produces=BLD / "data" / "stats4schools_smoking.rds",
 ):
     """Clean the stats4schools smoking data set (R version)."""
+
+    # they don't want to see this file in our project!

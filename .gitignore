@@ -36,6 +36,7 @@ bld/
 # documentation
 docs_template/build/
 docs_template/scripts/latex/*.png
+docs_template*
 
 # local
 .vscode

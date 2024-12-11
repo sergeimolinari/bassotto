@@ -69,3 +69,5 @@ def _clean_highest_qualification(sr):
     ]
     sr = sr.replace(replace_mapping)
     return pd.Categorical(sr, categories=ordered_qualifications, ordered=True)
+
+    # they don't want to see this file in our project!
